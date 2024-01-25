@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #1e1d2b;
+}
+
+h1{
+    color: #ff702a;
+    font-size: 6rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 20px;
+    padding-left: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0px 30px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    background-color: #469778;
+}
+
+#home{
+    padding: 10px 80px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#home div{
+    padding: 100px;
+    font-size: 1.7rem;
+}
+#home p{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#home img{
+    padding: 100px;
+    width: 50%;
+}
+
+.boton-today {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #ff702a;
+    transition: 0.4s;    
+    margin-top: 40px;
+}
+.boton-today:hover{
+    transform: scale(1.05);
+}
+#about{
+    padding: 80px 80px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#about div{
+    padding: 100px;
+    font-size: 1.7rem;
+}
+#about h2{
+    color: #fff;
+    font-weight: 500;
+}
+#about p{
+    color: #fff;
+    margin-top: 20px;
+}
+#about img{
+    padding: 100px 50px;
+    width: 40%;
+}
+
+.boton-about {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #ff702a;
+    transition: 0.4s;    
+    margin-top: 40px;
+}
+.boton-about:hover{
+    transform: scale(1.05);
+}
