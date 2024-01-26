@@ -33,6 +33,17 @@ header {
     transition: 0.4s;
 }
 
+.mostrar-menu,
+.cerrar-menu{
+    display: none;
+}
+
+.mostrar-menu{
+    order: 1    ;
+}
+#check{
+    display: none;
+}
 .menu a:hover{
     background-color: #469778;
 }
@@ -44,7 +55,7 @@ header {
     margin: 20px;
 }
 #home div{
-    padding: 100px;
+    padding: 50px;
     font-size: 1.7rem;
 }
 #home p{
@@ -53,8 +64,8 @@ header {
     font-weight: bold;
 }
 #home img{
-    padding: 100px;
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .boton-today {
@@ -69,6 +80,7 @@ header {
 .boton-today:hover{
     transform: scale(1.05);
 }
+
 #about{
     padding: 80px 80px;
     display: flex;
@@ -76,7 +88,7 @@ header {
     margin: 20px;
 }
 #about div{
-    padding: 100px;
+    padding: 50px 100px;
     font-size: 1.7rem;
 }
 #about h2{
@@ -88,8 +100,9 @@ header {
     margin-top: 20px;
 }
 #about img{
-    padding: 100px 50px;
-    width: 40%;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .boton-about {
@@ -103,4 +116,45 @@ header {
 }
 .boton-about:hover{
     transform: scale(1.05);
+}
+
+@media (max-width: 750px){
+    .mostrar-menu,
+    .cerrar-menu{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #323047;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px;
+        z-index: 100;
+        transition: 0.6s;
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+    .cerrar-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+    
+    #home{
+        flex-direction: column;
+        text-align: center;
+    }
+    #about{
+        text-align: center;
+        flex-direction: column;
+
+    }
 }
