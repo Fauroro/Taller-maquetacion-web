@@ -225,10 +225,12 @@ h2{
     }
     
     #home{
+        align-items: center;
         flex-direction: column;
         text-align: center;
     }
     #about{
+        align-items: center;
         padding: 5px;
         text-align: center;
         flex-direction: column-reverse;
@@ -248,14 +250,18 @@ h2{
     .boton{
         font-size: 20x;
     }
-    #food{
-        padding: 5px;
+    #food,#service,#learn{
+        align-items: center;
+        padding: 10px;
     }
     .items-1, .items-2{
         flex-direction: column;
     }
     .item-1{
         padding: 0;
-        margin: 50px;
+        margin: 20px 50px;
+    }
+    #learn{
+        margin: 10px;
     }
 }
