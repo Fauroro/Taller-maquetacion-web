@@ -9,20 +9,17 @@
 </head>
 <body>
     <header>
-        <h2 style="color: #ff702a; font-weight: normal;">Foods</h2>
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar-menu" style="color: #469778; font-size: 2rem;">
-            &#8801
-        </label>
-        <nav class="menu">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#food">Menu</a>
-                <a href="#service">Service</a>
-                <a href="#">Contact</a> 
-                <label for="check" class="cerrar-menu" style="color: #469778;font-size: 2rem;">
-                    &#215
-                </label>          
+        <nav class="nave">
+            <h2 style="color: #ff702a; font-weight: normal;">Foods</h2>
+            <a href="#desp" class="navTarget" style="color: #469778;font-size: 2rem; text-decoration: none;">&#8801</a>
+            <div class="menu" id="desp">                
+                <a href="#home" class="aMenu">Home</a>
+                <a href="#about" class="aMenu">About</a>
+                <a href="#food" class="aMenu">Menu</a>
+                <a href="#service" class="aMenu">Service</a>
+                <a href="#contact" class="aMenu">Contact</a> 
+                <a href="#" class="cerrar-menu" style="color: #469778;font-size: 2rem; text-decoration: none">&#215</a>
+            </div>
         </nav>
     </header>
 
@@ -121,7 +118,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contact">
 
     </footer>
 
