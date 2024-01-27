@@ -5,7 +5,17 @@
     padding: 0;
     font-family: 'Poppins',sans-serif;
 }
-
+.up i{
+    padding: 10px;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    background-color: #469778;
+    padding: 0;
+    width:fit-content;  
+    border-radius: 50%;
+    font-size: 2rem;
+}
 body{
     background-color: #1e1d2b;
 }
