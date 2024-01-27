@@ -78,7 +78,7 @@ h1{
     transform: scale(1.05);
 }
 
-#about{
+#about,#contact{
     padding: 80px 180px;
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@ h2{
     max-width: 500px;
     width: 100%;
 }
-.items-2{
+.items-2,.items-3{
     display: flex;
     justify-content: space-around;
 }
@@ -149,8 +149,7 @@ h2{
     background-color: #ff702a;
     padding: 0;
     width:fit-content;
-    height: 27.2px;
-    
+    height: 27.2px;    
 }
 #food .icon{
     padding: 0;
@@ -181,6 +180,34 @@ h2{
 #learn h2{
     color: #000;
 }
+
+a,.s2{
+    text-decoration: none;
+    color: #fff;   
+}
+.hrMenu{
+    width: 30%; 
+    border: 1px solid #ff702a;
+}
+.item-3{
+    margin: 50px 0px;
+    text-align: left;
+    padding: 20px;
+}
+.t2{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.items-4{
+    display: flex;
+}
+.item-4 i{
+    background-color: #ff702a;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 3px;
+}
+
 
 @media (max-width: 800px){
     .navTarget{
@@ -247,11 +274,11 @@ h2{
     .boton{
         font-size: 20x;
     }
-    #food,#service,#learn{
+    #food,#service,#learn,#contact{
         align-items: center;
         padding: 10px;
     }
-    .items-1, .items-2{
+    .items-1, .items-2, .items-3{
         flex-direction: column;
     }
     .item-1{
@@ -260,5 +287,11 @@ h2{
     }
     #learn{
         margin: 10px;
+    }
+    .item-3{
+        margin: 0;
+    }
+    .items-3{
+        align-items: start;
     }
 }
