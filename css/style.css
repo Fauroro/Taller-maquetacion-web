@@ -48,6 +48,7 @@ h1{
     display: flex;
     justify-content: center;
     margin: 20px;
+    align-items: center;
 }
 #home div{
     margin: 50px;
@@ -83,6 +84,7 @@ h1{
     display: flex;
     justify-content: center;
     margin: 20px;
+    align-items: center;
 }
 #about div{
     padding: 50px 100px;
@@ -106,6 +108,7 @@ h2{
     text-align: center;
     font-size: 1.7rem;
     padding: 50px 180px;
+    align-items: center;
 }
 .items-1{
     display: flex;
