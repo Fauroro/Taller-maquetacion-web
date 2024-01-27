@@ -208,7 +208,7 @@ h2{
         font-size: 3rem;
     }
     #home div{
-        padding: 20px;
+        padding: 5px;
         margin: 0;
     }
     .menu a{
@@ -229,7 +229,7 @@ h2{
         text-align: center;
     }
     #about{
-        padding: 80px;
+        padding: 5px;
         text-align: center;
         flex-direction: column-reverse;
 
@@ -238,7 +238,7 @@ h2{
         font-weight: 300;
     }
     #about div{
-        padding: 20px;
+        padding: 5px;
     }
 
     #about p{
@@ -249,7 +249,7 @@ h2{
         font-size: 20x;
     }
     #food{
-        padding: 80px;
+        padding: 5px;
     }
     .items-1, .items-2{
         flex-direction: column;
