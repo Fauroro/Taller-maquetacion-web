@@ -107,20 +107,21 @@ h2{
     height: 100%;   
 }
 
-#food{
+#food,#service,#learn{
     text-align: center;
     font-size: 1.7rem;
     padding: 50px 180px;
 }
-.items{
+.items-1{
     display: flex;
     justify-content: space-around;
 }
-.item{
+.item-1{
     margin: 50px;
     padding: 20px 60px;
     background-color: #ffefe8;
     text-align: center;
+    position: relative;
 }
 .title{
     color: #000;
@@ -132,21 +133,61 @@ h2{
     color: #ff702a;
     font-weight: bold;
 }
-#food h3{
+#food h3, #service h3{
     color: #ff702a;
     font-weight: normal;
 }
 #food div{
     padding: 30px;
-    border-radius: 5%;
+    padding-top: 0;
+
 }
 #food img{
     max-width: 500px;
     width: 100%;
 }
+.items-2{
+    display: flex;
+    justify-content: space-around;
+}
+#food i{
+    background-color: #ff702a;
+    padding: 0;
+    width:fit-content;
+    height: 27.2px;
+    
+}
+#food .icon{
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.item-2{
+    margin: 50px 0px;
+    text-align: center;
+}
+#service img{
+    max-width: 250px;
+    width: 40%;
+}
+.s1{
+    color: #ff702a;
+    font-weight: normal;
+}
+.t1{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.box-learn{
+    background-color: #ffefe8;
+    padding: 5% 25%;
+}
+#learn h2{
+    color: #000;
+}
 
-
-@media (max-width: 750px){
+@media (max-width: 800px){
     .mostrar-menu,
     .cerrar-menu{
         display: block;
@@ -210,11 +251,10 @@ h2{
     #food{
         padding: 80px;
     }
-    .items{
+    .items-1, .items-2{
         flex-direction: column;
-        justify-content: space-between;
     }
-    .item{
+    .item-1{
         padding: 0;
         margin: 50px;
     }
